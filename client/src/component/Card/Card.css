@@ -1,0 +1,54 @@
+.card {
+  font-family: "Times New Roman", Times, serif;
+  padding: 5px;
+  margin: 5px;
+  width: 180px;
+  font-size: 18px; /* Tamaño del texto */
+  letter-spacing: 2px; /* Espaciado entre letras */
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Sombra al texto */
+  -webkit-text-stroke: 0.1px #d2c90f; /* Contorno al texto */
+  background-color: #1d282b;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 3px 3px 10px #d2c90f;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: calc(25% - 20px);
+  margin: 10px;
+  text-align: center;
+  float: left;
+  overflow: hidden; /* Para evitar que el contenido desborde */
+  color: #d2c90f;
+  height: 400px; /* Establece una altura fija para todas las tarjetas */
+}
+.card-container:hover {
+  transform: scale(1.01);
+}
+
+.card:nth-child(4n) {
+  margin-right: 0;
+}
+
+.card img {
+  max-width: 80%;
+  max-height: 200px;
+  margin-bottom: 10px;
+  border-radius: 80%; /* Redondea la imagen en un círculo */
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.5);
+  background-color: #272f31; /* Color de fondo claro */
+}
+
+.abilities-heading {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.ability-list {
+  list-style: none;
+  padding: 0;
+}
+
+.ability-list .ability {
+  margin: 5px 0;
+}
