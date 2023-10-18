@@ -116,3 +116,14 @@ button:hover:after {
   height: 0;
   width: 100%;
 }
+
+.refresh-container {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.refresh-button {
+  cursor: pointer;
+  margin-right: 10px;
+}

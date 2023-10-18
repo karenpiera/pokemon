@@ -1,0 +1,25 @@
+.custom-cursor {
+  cursor: url("huelladog.png") auto;
+}
+
+.pagination {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.pagination a {
+  color: rgb(92, 13, 228);
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a:hover {
+  background-color: #4a4484;
+}
+
+.pagination span {
+  color: rgb(14, 12, 12);
+  float: left;
+  padding: 8px 16px;
+}
