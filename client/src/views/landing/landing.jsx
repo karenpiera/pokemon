@@ -1,5 +1,11 @@
+import Navbar from "../../component/navbar/navbar";
+
 function landing() {
-  return <div>landing</div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
 
 export default landing;
