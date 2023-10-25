@@ -47,7 +47,7 @@ export default function Home() {
   return (
     <div>
       <Navbar handleChange={handleChange} handleSubmit={handleSubmit} />
-      <div className="container">
+      <div className="paginacion">
         <button
           className="custom-cursor"
           onClick={prevPage}
@@ -66,7 +66,6 @@ export default function Home() {
         </button>
       </div>
       <Cards allPokemon={currentItems} />
-      <div className="pagination"></div>
     </div>
   );
 }

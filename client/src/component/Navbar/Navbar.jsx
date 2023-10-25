@@ -17,6 +17,9 @@ function Navbar({ handleChange, handleSubmit }) {
         <Link to="/" className="button animated-link">
           Landing
         </Link>
+        <Link to="/about" className="button animated-link">
+          About
+        </Link>
         <div className="refresh-container">
           <span onClick={refreshPage} className="refresh-button">
             <svg
